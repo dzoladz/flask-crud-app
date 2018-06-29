@@ -5,6 +5,8 @@ MAINTAINER Derek C. Zoladz version: 0.1
 # apt-get packages
 RUN apt-get update && \
 	apt-get install -y git \
+			nano \
+			lsof \
 			python3.6 \
 			python3-pip && \
 	apt-get clean && \
