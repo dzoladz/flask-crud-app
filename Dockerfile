@@ -25,7 +25,7 @@ RUN git clone https://github.com/dzoladz/flask-crud-app
 WORKDIR /app/flask-crud-app
 
 # Expose ports
-EXPOSE 5000
+EXPOSE 9000
 
 # Command
 CMD ["python3", "bookmanager.py"]
