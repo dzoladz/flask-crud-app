@@ -19,7 +19,7 @@ RUN pip3 install \
 # Build application
 RUN mkdir -p /app/flask-crud-app
 WORKDIR /app
-RUN git clone https://github.com/sixhobbits/flask-crud-app
+RUN git clone https://github.com/dzoladz/flask-crud-app
 WORKDIR /app/flask-crud-app
 
 # Expose ports
